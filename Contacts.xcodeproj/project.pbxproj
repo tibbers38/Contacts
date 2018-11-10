@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3DBD88DA217B6705009C51A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD88D9217B6705009C51A0 /* main.cpp */; };
+		3DBD88E5217B706C009C51A0 /* Menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD88E3217B706C009C51A0 /* Menu.cpp */; };
+		3DBD88E8217B7970009C51A0 /* Function.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD88E6217B7970009C51A0 /* Function.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		3DBD88D6217B6705009C51A0 /* Contacts */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Contacts; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DBD88D9217B6705009C51A0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3DBD88E3217B706C009C51A0 /* Menu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Menu.cpp; sourceTree = "<group>"; };
+		3DBD88E4217B706C009C51A0 /* Menu.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Menu.hpp; sourceTree = "<group>"; };
+		3DBD88E6217B7970009C51A0 /* Function.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Function.cpp; sourceTree = "<group>"; };
+		3DBD88E7217B7970009C51A0 /* Function.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Function.hpp; sourceTree = "<group>"; };
+		3DBD88EC217B7B24009C51A0 /* Data.dat */ = {isa = PBXFileReference; lastKnownFileType = text; name = Data.dat; path = "/Users/Nam/Documents/Xcode Documents/Contacts/Contacts/Data.dat"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				3DBD88D9217B6705009C51A0 /* main.cpp */,
+				3DBD88E3217B706C009C51A0 /* Menu.cpp */,
+				3DBD88E4217B706C009C51A0 /* Menu.hpp */,
+				3DBD88E6217B7970009C51A0 /* Function.cpp */,
+				3DBD88E7217B7970009C51A0 /* Function.hpp */,
+				3DBD88EC217B7B24009C51A0 /* Data.dat */,
 			);
 			path = Contacts;
 			sourceTree = "<group>";
@@ -118,6 +130,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DBD88E5217B706C009C51A0 /* Menu.cpp in Sources */,
+				3DBD88E8217B7970009C51A0 /* Function.cpp in Sources */,
 				3DBD88DA217B6705009C51A0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
